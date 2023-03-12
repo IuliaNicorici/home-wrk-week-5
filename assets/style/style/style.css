@@ -1,0 +1,140 @@
+.header_block{
+    display:flex;
+    flex-direction: row;
+    flex-basis: 10%;
+    justify-content: center;
+    align-items: last baseline;
+    margin-bottom: 146px;
+}
+.logo{
+    display:flex;
+    flex-basis:50%;
+    margin: 10px;
+    padding: 10px;
+}
+.logo_1{
+    display: flex;
+    width: 2vw;
+    height: 3vh;    
+}
+.button{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+    padding: 10px ;
+    height: 11px;      
+}
+.btn1, .btn2, .btn3, .btn4{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #FFFFFF;
+}
+.btn1{
+    color:#383938;
+}
+.btn2 {
+    color:#6e6d7a;
+}
+.btn3{
+    color:#6e6d7a;
+}
+.btn4{
+    background:#e5e5e5;
+}
+/*------------------------------------------------*/
+.block_text{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    flex-basis: 25% ;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 80px;
+     background: #FFFFFF;
+}
+h1:active{ /* нажми на надпись, проявится другой цвет*/
+    color: aquamarine;
+}
+h1::before{
+    content: ":) ";
+    color: #f51a1a;
+}
+h1:hover::after{
+    content: " :D"; /*наведи на надпись, появится смайл*/
+    color: #f51a1a;
+}
+.img_appstore{
+    display: flex;
+    flex-basis: 5%;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    height: 40px;
+    width: 135px;
+}
+.img_main{
+    display: flex;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img_1{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+   
+    /* не получается растянуть картинку:((*/
+}
+/*----------------------------------------*/
+.footer_box{
+    display:flex;
+    justify-content:space-around;
+    flex-basis: 40%;
+    flex-direction: row;
+}
+.footer_icon_1, .footer_icon_2, .footer_icon_3{
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: column; 
+    justify-content:space-around;  
+    align-items: flex-start;
+}
+.icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: last baseline;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+.span{
+    display: flex;
+    flex-basis: 20%;
+    font-style: 30px;
+    margin: 40px;
+    color: #6E6D7A;  
+}
+span:hover{  /* при нажатии на надпись проявится другой цвет*/ 
+    color: rgb(49, 66, 61);
+}
+
+
+
+
+            
